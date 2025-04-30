@@ -3,11 +3,11 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "avanthikha/my-app"
+        IMAGE_NAME = "swathika1804/my-app"
         REGISTRY = "docker.io"
         APP_DIR = "/home/vboxuser/Downloads/Jenkins-main/"
-        DOCKER_USER = "avanthikha"          // Replace with your Docker Hub username
-        DOCKER_PASS = "H@rsa2000"          // Replace with your Docker Hub password
+        DOCKER_USER = "swathika1804"          // Replace with your Docker Hub username
+        DOCKER_PASS = "Swathi@__1804"          // Replace with your Docker Hub password
     }
 
     stages {
